@@ -1,6 +1,6 @@
-# MongoDB dev environemnt with UI interface 
+# MongoDB dev environment with UI interface
 
-I wanted to have an easy way to spin up mongodb environment with a choice of UI intefaces.
+I wanted to have an easy way to spin up mongodb environment with a choice of UI interfaces.
 
 I'm going to use adminMongo, but it should be easy to add any existing.
 
@@ -23,4 +23,4 @@ docker run --rm -ti \
        bundler install
 ```
 
-And then run tests with ```rspec``` instead of ```bundler install```  
+And then run tests with ```rspec``` instead of ```bundler install```
