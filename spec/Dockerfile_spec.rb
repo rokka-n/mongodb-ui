@@ -1,4 +1,4 @@
-# web_test_spec.rb
+# integration tests for docker-compose
 
 require 'serverspec'
 require 'specinfra/backend/docker_compose'
