@@ -1,0 +1,12 @@
+mongo:
+  build:
+   image: mongo:3.2
+   context:
+    mongo/3.2
+  ports:
+   - "27017:27017"
+  command: --storageEngine wiredTiger
+  volumes:
+  # fails on Mac, if folder in /Users
+   - /var/lib/mongo-data:/data/db
+  image: mongo:3.2
