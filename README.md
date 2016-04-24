@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/rokka-n/mongodb-ui.png?label=ready&title=Ready)](https://waffle.io/rokka-n/mongodb-ui)
 # MongoDB dev environment with UI interface
 
 I wanted to have an easy way to spin up mongodb environment with a choice of UI interfaces.
